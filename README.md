@@ -9,3 +9,6 @@ Primer proyecto, creación de página personal con tecnologías HTML y CSS y dis
 # Club de lectura
 # Web de cerrajero o fontanero
 # Viajes interplanetarios
+
+# Me quedo con el cerrajero
+# Puedo hacer un easter egg en la web, cuando pases por encima de algo que aparezca toda la pantalla cubierta de pegatinas de cerrajero.
