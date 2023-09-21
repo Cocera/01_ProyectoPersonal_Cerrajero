@@ -1,7 +1,8 @@
 
 
-## P1 Proyecto personal
+
 # Manuel Cerrojos Web :hammer_and_wrench:
+## P1 Proyecto personal
 
 Primer proyecto, creación de página personal con tecnologías HTML y CSS y diseño web "mobile first".
 
