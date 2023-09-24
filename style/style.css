@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700&display=swap'); /* Roboto slab semi bold y bold */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap'); /* Inter regular y light */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 
 /* ------------------ Colores ------------------ */
 
@@ -8,7 +7,7 @@
     --red: #EF0000;
     --yellow: #FFEC44;
     --blue: #008AEE;
-}
+};
 
 /* ------------------ Edicion tipografia ------------------ */
 
@@ -17,50 +16,36 @@ h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 43px;
-}
+};
 
 h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     font-size: 35px;
     line-height: 40px;
-}
+};
 
 h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     font-size: 27px;
     line-height: 32px;
-}
+};
 
 p.highlighted {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-}
+};
 
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
-}
+};
 
-/* ------------------ Edicion imágenes ------------------ */
-
-img {
-    width: 300px;
-    height: auto;
-}
-
-img.square {
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
-}
-
-/* ------------------ Edicion NAV ------------------ */
-nav {
-    background-color: var(--blue);
+nav > ul {
+    background-color: var(--red);
 }
