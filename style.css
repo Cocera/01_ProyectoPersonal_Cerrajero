@@ -5,43 +5,52 @@
     --red: #EF0000;
     --yellow: #FFEC44;
     --blue: #008AEE;
-};
+}
 
 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 43px;
-};
+}
 
 h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     font-size: 35px;
     line-height: 40px;
-};
+}
 
 h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     font-size: 27px;
     line-height: 32px;
-};
+}
 
 p.highlighted {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-};
+}
 
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
-};
+}
 
 nav {
-    background-color: #FFEC44;
+    background-color: var(--blue);
+}
+
+nav > ul > li {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+nav > ul > li > a {
+    color: white;
 }
