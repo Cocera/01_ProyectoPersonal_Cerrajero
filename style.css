@@ -75,12 +75,19 @@ header#header_index {
     background-color: black;
 }
 
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 nav > ul > li {
     list-style: none;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    display: inline;
+    font-weight: 300;
     padding-right: 15px;
+    font-size: 4vw;
+    line-height: 6vw;
 }
 
 nav > ul > li > a {
