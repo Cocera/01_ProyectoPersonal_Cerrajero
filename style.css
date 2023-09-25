@@ -61,6 +61,26 @@ body {
     background-color: black;
 }
 
+.intro_apartado {
+    padding: 10vw 15vw 3vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+img {
+    width: 70vw;
+    height: 45vw;
+    object-fit: cover;
+    margin-bottom: 2vw;
+    border-radius: 5vw;
+}
+
+img.border_shadow {
+    border: 0.8vw solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* ---------- NAV ---------- */
 
 header {
@@ -68,7 +88,7 @@ header {
     padding: 20px;
     position: sticky;
     top: 0;
-    border-bottom: 0.9vw solid black;
+    border-bottom: 0.8vw solid black;
 }
 
 header#header_index {
@@ -96,8 +116,8 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    text-decoration: underline;
     color: var(--yellow);
+    font-weight: bolder;
 }
 
 /* ---------- INDEX STICKERS ---------- */
@@ -137,13 +157,6 @@ section#stickers > article > img {
 
 /* ---------- WORK || SERVICES ---------- */
 
-section#intro_services {
-    padding: 10vw 15vw 3vw;
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
 section#intro_services > h2, p {
     padding-bottom: 5vw;
 }
@@ -173,15 +186,23 @@ main#services > section > p {
     padding-bottom: 3vw;
 }
 
-main#services > section > img {
-    width: 70vw;
-    height: 45vw;
-    object-fit: cover;
-    border-radius: 5vw;
-    border: 0.8vw solid black;
-    margin-bottom: 2vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+/* ---------- ABOUT ||TEAM ---------- */
+/* ---------- este estilo se puede crear como clase, lo estamos utilizando en main#services pero con distitna ID, se puede crear una clase de flex_column_center ---------- */
+
+section#team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 20vw;
 }
+
+section#team > article > img {
+    height: 70vw;
+}
+
 
 
 /* ---------- FOOTER ---------- */
