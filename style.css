@@ -30,29 +30,29 @@ h1 {
 h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 9vw;
+    line-height: 10vw;
 }
 
 h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
-    font-size: 27px;
-    line-height: 32px;
+    font-size: 7vw;
+    line-height: 8.5vw;
 }
 
 p.highlighted {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 4.5vw;
+    line-height: 6vw;
 }
 
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 3vw;
+    line-height: 5vw;
 }
 
 /* ---------- ELEMENTOS GENERICOS ---------- */
@@ -107,6 +107,7 @@ section#title_index {
 section#title_index > h1 {
     font-size: 10vw;
     color: black;
+    text-shadow: 2px 2px 3px var(--yellow);
 }
 
 section#title_index > p {
@@ -127,12 +128,10 @@ section#stickers > article > img {
     height: auto;
 }
 
-/* ---------- WORK ---------- */
+/* ---------- WORK || SERVICES ---------- */
 
 section#intro_services {
-    height: 30vh;
-    width: auto;
-    padding: 10vw 20vw 2vw;
+    padding: 10vw 15vw 3vw;
     display: flex;
     flex-direction: column;
     color: white;
@@ -152,17 +151,19 @@ main#services {
 
 main#services > section {
     background-color: #FFEC44;
-    padding: 5vw;
-    margin-bottom: 5vw;
-    border-radius: 8vw;
-}
-
-main#services > section > p {
-    padding: 0;
+    padding: 3vw;
+    margin-bottom: 7vw;
+    border-radius: 7vw;
 }
 
 main#services > section > p, h3 {
     color: black;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+main#services > section > p {
+    padding-bottom: 3vw;
 }
 
 main#services > section > img {
@@ -172,13 +173,14 @@ main#services > section > img {
     border-radius: 5vw;
     border: 0.8vw solid black;
     margin-bottom: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 /* ---------- FOOTER ---------- */
 
 footer {
-    background-color: grey;
+    background-color: #303030;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -195,5 +197,12 @@ footer > address {
     height: auto;
     width: 100vw;
 }
+
+footer > address > p {
+    padding: 0;
+    padding-bottom: 1vw;
+    font-style: normal;
+}
+
 
 
