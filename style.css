@@ -100,11 +100,7 @@ main#index {
 }
 
 section#title_index {
-    height: 30vh;
-    width: auto;
-    padding: 20vw, 22vw, 5vw;
-    display: flex;
-    flex-direction: column;
+    padding: 10vw 10vw 4vw;
     text-align: center;
 }
 
@@ -179,7 +175,7 @@ main#services > section > img {
 }
 
 
-/* ---------- WORK ---------- */
+/* ---------- FOOTER ---------- */
 
 footer {
     background-color: grey;
