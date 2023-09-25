@@ -19,9 +19,45 @@
         </nav>
     </header>
 
-    <body>
-        <!-- Meter formulario de contacto -->
-    </body>
+    <main>
+        <h3>¿Necesitas ayuda?</h3>
+        <p>Completa el formulario y te contáctaremos lo antes posible para ofrecerte la mejor solución o ayuda instantánea.</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="mail">Mail:</label>
+            <input type="email" name="mail" id="mail">
+            
+            <label for="tlf">Teléfono:</label>
+            <input type="tel" name="tlf" id="tlf">
+            
+            <label for="location">¿Dónde estás?</label>
+            <select name="location" id="location">
+                <option value="valencia">Valencia</option>
+                <option value="castellon">Castellón</option>
+                <option value="alicante">Alicante</option>
+            </select>
+
+            <label for="service">Qué necesitas?</label>
+            <label for="caja_fuerte"> 
+                <input type="checkbox" name="service" id="caja_fuerte">
+                Abrir caja fuerte
+            </label>
+            <label for="no_llaves"> 
+                <input type="checkbox" name="service" id="no_llaves">
+                No tengo llaves
+            </label>
+            <label for="cerrojo"> 
+                <input type="checkbox" name="service" id="cerrojo">
+                Cambiar cerrojo
+            </label>
+            
+            <label for="comments">Observaciones:</label>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+        
+        </form>
+    </main>
 
     <footer>
         <address>Dirección</address>
