@@ -203,6 +203,14 @@ section#team > article > img {
     height: 70vw;
 }
 
+section#team > h2 {
+    color: white;
+}
+
+section#team > article > h3 {
+    color: white;
+}
+
 
 
 /* ---------- FOOTER ---------- */
