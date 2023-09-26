@@ -190,7 +190,6 @@ main#services > section > p {
 
 
 /* ---------- ABOUT ||TEAM ---------- */
-/* ---------- este estilo se puede crear como clase, lo estamos utilizando en main#services pero con distitna ID, se puede crear una clase de flex_column_center ---------- */
 
 section#team {
     display: flex;
@@ -200,8 +199,6 @@ section#team {
     padding: 5vw 20vw;
 }
 
-/* ---------- crear clase con el estilo de las tarjetas de servicio del apartado work ---------- */
-
 section#team > article {
     background-color: #303030;
     padding: 3vw;
@@ -210,6 +207,7 @@ section#team > article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 section#team > article > img {
@@ -275,14 +273,6 @@ footer > address > p {
     padding-bottom: 1vw;
     font-style: normal;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -375,13 +365,33 @@ footer > address > p {
         padding: 5px 8px;
     }
 
-     /* -- Flex: column => wrap -- */
-     main#services {
+    /* -- General -- */
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 2vw;
+        border-radius: 28px;
+    }
+
+    img.img_about {
+        height: 50vh;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    #title_index > h1 {
+        padding-bottom: 60px;
+    }
+
+    /* -- Servicios: column => wrap -- */
+    main#services {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: stretch;
         padding: 0;
+        margin-bottom: 200px;
         
     }
 
@@ -402,18 +412,47 @@ footer > address > p {
         padding-right: 0vw;
     }
 
-    img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        margin-bottom: 2vw;
-        border-radius: 28px;
-    }
-
     img.border_shadow {
         border: 5px solid black;
     }
 
+    /* -- Team: column => wrap -- */
+    section#team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        padding: 0vw;
+        margin: 0;
+        margin-bottom: 200px;
+    }
+
+    section#team > h2 {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+
+
+    section#team > article {
+        width: 20%;
+        height: auto;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 40px;
+        flex-direction: column;
+        align-content: center;  
+        align-items: center; 
+    }
+
+    section#team > article > img {
+        width: 100%;
+        height: 200px;
+    }
+
+    section#team > article > h3 {
+        text-align: center;
+        font-size: 32px;
+    }
 
 
 
