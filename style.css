@@ -230,6 +230,25 @@ main.intro_apartado > p.highlighted {
  }
 
 
+/* ---------- FORM ---------- */
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 15vw 0vw;
+}
+
+form > label, input, select, textarea {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1vw;
+}
+
+form > input, select, textarea {
+    margin-bottom: 10vw;
+}
+
+
+
 /* ---------- FOOTER ---------- */
 
 footer {
@@ -288,6 +307,31 @@ footer > address > p {
         width: 100vw;
         padding: 5px 8px;
     }
+
+    /* -- Form -- */
+
+    form {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0vw 15vw 20vw;
+    }
+    
+    form > label, input, select, textarea {
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 1vw;
+        max-width: 20%;
+    }
+    
+    form > input, select, textarea {
+        margin-bottom: 10px;
+    }
+
+    form > textarea {
+        width: 100%;
+        max-width: 100vw;
+    };
 }
 
 @media only screen and (min-width: 1024px) {
@@ -307,7 +351,7 @@ footer > address > p {
         font-family: 'Roboto Slab', serif;
         font-weight: 600;
         font-size: 30px;
-        line-height: 45px;
+        line-height: 40px;
     }
     
     p.highlighted {
@@ -353,6 +397,11 @@ footer > address > p {
         align-items: center;
     }
 
+    main#services > section > p, h3 {
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+
     img {
         width: 100%;
         height: 200px;
@@ -364,4 +413,9 @@ footer > address > p {
     img.border_shadow {
         border: 5px solid black;
     }
+
+
+
+
+  
 }
